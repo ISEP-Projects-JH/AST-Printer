@@ -51,7 +51,6 @@ std::shared_ptr<Node> Parser::factor()
 std::shared_ptr<Node> Parser::term()
 {
     auto left = factor();
-    // 可以扩展乘除
     return left;
 }
 

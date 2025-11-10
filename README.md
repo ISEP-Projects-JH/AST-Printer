@@ -1,8 +1,11 @@
 # AST-Printer
 
-A simple **pseudo-C++ parser and AST visualizer**, written in C++ as part of the *Formal Approaches, Languages, and Compilers* course project.
+A simple **pseudo-C++ parser and AST visualizer**, written in C++17 as part of the *Formal Approaches, Languages, and
+Compilers* course project.
 
-This tool reads source code written in a simplified C++-like syntax, performs lexical and syntax analysis, builds an **Abstract Syntax Tree (AST)**, and prints the result in a readable tree structure.
+This tool reads source code written in a simplified C++-like syntax,  
+performs lexical and syntax analysis, builds an *
+*Abstract Syntax Tree (AST)**, and prints the result in a readable tree structure.
 
 ---
 
@@ -27,12 +30,14 @@ AST-Printer/
 ## ⚙️ Build & Run
 
 ### Requirements
+
 - **C++17 or later**
 - **CMake ≥ 3.16**
 - **Flex** (for lexical analysis)
 - **Unix or Unix-like System**
 
 ### Steps
+
 ```bash
 # 1. Clone the repository
 git clone https://github.com/ISEP-Projects-JH/AST-Printer.git
@@ -123,5 +128,5 @@ This project is released for educational purposes under the **MIT License**.
 ## 🧑‍💻 Author
 
 **JeongHan Bae**
-[GitHub Profile](https://github.com/JeongHan-Bae)
+[GitHub Profile](https://github.com/JeongHan-Bae)  
 Course Project Repository: [ISEP-Projects-JH/AST-Printer](https://github.com/ISEP-Projects-JH/AST-Printer)

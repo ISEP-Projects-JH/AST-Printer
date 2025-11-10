@@ -1,0 +1,21 @@
+Tokens:
+int Va = 5 ; int Vb = 2 ; Va = Va + Vb ; print ( Va ) ; END
+
+AST:
+└── Statement
+    ├── Statement
+    │   ├── Statement
+    │   │   ├── Statement
+    │   │   │   └── Declaration (int)
+    │   │   │       ├── Identifier: Va
+    │   │   │       └── Number: 5
+    │   │   └── Declaration (int)
+    │   │       ├── Identifier: Vb
+    │   │       └── Number: 2
+    │   └── Assignment (=)
+    │       ├── Identifier: Va
+    │       └── BinOp (+)
+    │           ├── Identifier: Va
+    │           └── Identifier: Vb
+    └── Print
+        └── Identifier: Va
